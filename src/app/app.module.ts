@@ -11,6 +11,7 @@ import { AlainThemeModule } from '@delon/theme';
 import { DelonABCModule } from '@delon/abc';
 import { DelonFormModule } from '@delon/form';
 import { DelonUtilModule } from '@delon/util';
+import { WidgetComponent } from './widget/widget.component';
 
 @NgModule({
   imports:      [ 
@@ -25,7 +26,7 @@ import { DelonUtilModule } from '@delon/util';
     DelonFormModule.forRoot(),
     DelonUtilModule.forRoot()
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, WidgetComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

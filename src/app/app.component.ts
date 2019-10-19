@@ -14,7 +14,8 @@ export class AppComponent implements OnInit  {
     custom: 'custom',
     outer: {
       inner: 'innerdata'
-    }
+    },
+    test: 'testinggggg'
   }
   // @delon/form
     schema: SFSchema = {
@@ -44,7 +45,15 @@ export class AppComponent implements OnInit  {
                   }
                 }
               }
-            }
+            },
+            test: {
+              type: 'string',
+              title: 'test',
+              ui: {
+                widget: 'test-widget'
+              }
+            },
+
         },
         required: ['name']
     };
