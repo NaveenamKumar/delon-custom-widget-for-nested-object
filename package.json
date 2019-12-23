@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "rxjs": "6.2.0",
-    "extend": "3.0.1",
+    "extend": "3.0.2",
     "qrious": "4.0.2",
     "core-js": "2.5.7",
     "zone.js": "0.8.26",
